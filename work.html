@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Work</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: #140924;
+    color: #fff;
+}
+header{
+    position: fixed;
+    margin-top: -20px;
+    padding-top: -10px;
+    z-index: 1;
+}
+#rect{
+    height: 60px;
+    width: 100vw;
+    background-color: black;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 900;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 6px 15px ;
+    color: white;
+    border-radius: 20px;
+}
+ul li a:hover{
+    background: #fff;
+    color: #2b1055;
+}
+.logo{
+    color:  white;
+    font-weight:800;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.main{
+    width: 330px;
+    border: 03px solid skyblue;
+    padding: 8px;
+    border-radius: 30px;
+    background-color: white;
+   
+
+}
+input{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 300px;
+}
+.icon-search{
+    color: skyblue;
+    font-size: 20px;
+    background-color: white;
+}
+#para{
+    position: absolute;
+    padding: auto;
+    top: 100px;
+    margin: 0%;
+    left: 10px;
+}
+.fa-bars{
+    position: fixed;
+    color: #fff;
+    z-index: 3;
+    display: none;
+}
+.nav2{
+    position: fixed;
+}
+#list2{
+    position: fixed;
+    display: block;
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin-left: -5%;
+    font-size: 2rem;
+    background-color: #2b1055;
+    border-radius: 15px;
+   
+}
+#list2 li{
+    margin-top: 20%;
+}
+@media only screen and (max-width:1080px)
+{
+    .logo{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    ul{
+        display: none;
+    }
+    .main{
+        display: none;
+    }
+
+    .fa-bars{
+        display: inline;
+    }
+    .nav2{
+            position: relative;
+            transition: 1s;
+            transition-timing-function: ease-in;
+            margin-left: -200px;
+    }
+    .list2{
+        display: block;
+    }
+    #check{
+        display: none;
+        height: 20px;
+        width: 20px;
+    }
+    label #btn{
+        cursor: pointer;
+        position: fixed;
+
+    }
+    label #btn{
+        left: 40px;
+        top: 25px;
+        font-size: 35px;
+        color: white;
+    }
+    #check:checked ~ .nav2{
+        
+        display: block;
+        margin-left: 0%;
+    }
+    ul li a:hover{
+        background: #fff;
+        color: #2b1055;
+    }
+
+}
+    </style>
+</head>
+<body>
+    <label for="check">
+        <i class="fa-solid fa-bars" id="btn">
+      <input type="checkbox" id="check">
+      <div class="nav2"> 
+        <ul id="list2">
+        <li> <a href="index.html#" >Home</a></li>
+        <li> <a href="about.html" >About</a></li>
+        <li> <a href="work.html" >Work</a></li>
+        <li> <a href="contact.html" >Contact</a></li>  
+    </ul> 
+  </div></i> </label>
+
+  <header>
+    <div id="rect">
+        <a href="#" class="logo">Cash Craze</a>
+    <div class="main">
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <input type="text" id="searchInput" placeholder="Type to Search " oninput="searchItems()"></input>
+        </div>
+        <ul id="list">
+            <li> <a href="index.html#" >Home</a></li>
+            <li> <a href="about.html" >About</a></li>
+            <li> <a href="work.html" >Work</a></li>
+            <li> <a href="contact.html" >Contact</a></li>  
+        </ul>
+    </div>
+    </header>
+    <div id="para">
+    <p>
+        Welcome to the Work Section of [CASH CRAZE], your go-to resource for transforming your leisure time into a source of income through gaming and task completion apps. We understand that the concept of earning money while indulging in your favorite activities is not just appealing but also a viable reality.<br><br>
+
+<h1>How it Works:</h1><br><br>
+
+<b>1. Choose Your Apps Wisely:</b><br>
+Discover a curated selection of apps that reward you for your time and effort. Our reviews and recommendations ensure that you're investing in apps that offer legitimate and substantial earnings.<br><br>
+
+<b>2. Optimize Your Gameplay:</b><br>
+Unlock the full potential of your gaming experience with our strategic insights. Learn the tips and tricks that not only enhance your gaming skills but also boost your in-app rewards. We guide you on the path to becoming a savvy and successful gamer.<br><br>
+
+<b>3. Task Completion Mastery:</b><br>
+Navigate through various tasks, surveys, and challenges with ease. Our tactical approach to task completion ensures that you're not just ticking off boxes but doing so in the most efficient and lucrative way possible.<br><br>
+
+<b>4. Earn and Redeem:</b><br>
+Witness your efforts translate into real earnings. Whether it's virtual currency, gift cards, or cash rewards, we guide you on how to maximize your earnings and redeem your rewards for tangible benefits.<br><br>
+
+<h1>Why Choose [CASH CRAZE]</h1>:
+
+<b>- Expert Guidance:</b> Benefit from our in-depth knowledge and experience in the realm of money-earning apps. We provide you with insights that help you make informed decisions.<br><br>
+
+<b>- Community Support:</b> Connect with a community of individuals who share your interests and goals. Exchange ideas, tips, and success stories, creating a supportive environment that propels everyone towards financial success.<br><br>
+
+<b>- Constant Updates: </b>Stay ahead of the curve with our regular updates on the latest trends, apps, and strategies. We ensure that you are well-informed about the ever-evolving landscape of money-making opportunities.<br><br>
+
+Embark on your journey to turn play into pay with the Work Section of [CASH CRAZE]. Explore the possibilities, implement our strategies, and witness the transformation of your leisure activities into a legitimate source of income. Start working smarter, not harder, and redefine the way you approach gaming and task completion for financial gains.
+    </p></div><br>
+</body>
+</html>
